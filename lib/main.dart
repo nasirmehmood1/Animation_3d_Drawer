@@ -79,7 +79,7 @@ class _MyHomePageState extends State<MyHomePage>
                 ),
               ),
               Transform.translate(
-                offset: Offset(300 * _animationController.value, 0),
+                offset: Offset(250 * _animationController.value, 0),
                 child: Transform(
                   transform: Matrix4.identity()
                     ..setEntry(3, 2, 0.001)
